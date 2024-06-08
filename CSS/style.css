@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body{
+    transition: 0.5s;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.main h2{
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  font-style:normal;
+  font-size: 55px;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    color: #241212;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 45px;
+}
+.main{
+    width: 340px;
+    height:180px;
+    border: 10px solid black;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.main button{
+    background-color: black;
+    padding: 20px 30px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  font-style:normal;
+}
+#btn-two{
+    font-size: 20px;
+}
